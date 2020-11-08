@@ -1,0 +1,11 @@
+To run the program:
+
+Open the main.py file.
+First select a set of trajectories, giving the path of the repertory to the variable "set".
+We can change the value of the K parameter, to change the subidivision of the space of trajectories.
+
+Run the main.py file.
+
+The output will be the reconstructed trajectories.
+
+You can also uncomment line 59 to plot the initial trajectories, or the line 66 to show the points that permit to reconstruct the trajectories.
