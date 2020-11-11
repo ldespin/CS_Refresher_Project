@@ -45,8 +45,8 @@ def createBoxes(xmin, xmax, ymin, ymax, K):
 def crossingPoints(boxes,Traj):
     t = Traj.traj
     # We store in L all pairs of points which defines an entry or an out of the box
-    #If one point is outside the box and the next one is inside, we have a spot where the trajectory in entering
-    #If one point is inside the box and the next one is outside, we have a spot where the trajectory in going out
+    #If one point is outside the box and the next one is inside, we have a spot where the trajectory is entering
+    #If one point is inside the box and the next one is outside, we have a spot where the trajectory is going out
     for i in range(len(t)-1) : 
         for j in boxes:
             Box=boxes[j]
